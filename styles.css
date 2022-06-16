@@ -3,9 +3,10 @@ h1{
   text-align: center;
 }
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
   border: 1px solid black;
+  grid: 1fr 1fr 1fr 1fr 1fr;
 }
 form{
   text-align: center;
